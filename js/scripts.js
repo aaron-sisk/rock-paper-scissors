@@ -9,8 +9,20 @@ function getComputerChoice() {
         return "Paper"
     }
     else {
-        return "Scisscors"
+        return "Scissors"
     }
 }
 
 console.log(getComputerChoice())
+
+function getHumanChoice() {
+    let humanChoice = window.prompt("Rock, Paper, or Scissors");
+    return humanChoice
+} 
+
+console.log(getHumanChoice())
+
+let humanScore = 0
+
+let computerScore = 0
+
